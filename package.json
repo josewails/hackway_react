@@ -1,0 +1,33 @@
+{
+  "name": "devpulse",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axiom": "^0.1.6",
+    "brace": "^0.10.0",
+    "facebook-login-redux-react": "^0.4.1",
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.100.2",
+    "react": "^15.6.1",
+    "react-ace": "^5.4.0",
+    "react-dom": "^15.6.1",
+    "react-facebook-login": "^3.6.2",
+    "react-materialize": "^1.0.16",
+    "react-progressbar": "^15.4.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "redux": "^3.7.2",
+    "request-promise": "^4.2.2",
+    "requests": "^0.2.2",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && mv build/index.html build/200.html && surge build hackway"
+  }
+}

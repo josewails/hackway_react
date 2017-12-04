@@ -1,0 +1,14 @@
+#submit-button{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#test-button{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#test-code{
+    color: blue;
+}

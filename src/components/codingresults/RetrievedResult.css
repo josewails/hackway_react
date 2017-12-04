@@ -1,0 +1,9 @@
+#testcases-modal{
+    display: block;
+    margin-bottom: 5px;
+}
+#code-modal{
+    display: block;
+    margin-bottom: 5px;
+    white-space: pre-line;
+}
